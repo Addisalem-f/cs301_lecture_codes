@@ -9,7 +9,7 @@ function outer(outer_param) {
   // console.log(inner_param, z)  
   function inner(inner_param) {
     let z = "inner_local_z";
-    // x,y,z and outer_param all are accebile here
+    // x,y,z and outer_param all are accessible here
     console.log(z, inner_param, y, x);
   }
   console.log(x, y, outer_param);
